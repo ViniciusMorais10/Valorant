@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.background {
+  background-image: url('./images/walppaper1.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background-color: blue; */
+  height: 60px;
+}
+
+.logo {
+  /* background-color: aqua; */
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  overflow:hidden;
+  
+}
+
+.logo img {
+  width: 60px;
+  height: 60px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  /* background-color: black; */
+  margin-right: 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  font-family: Lexend Deca, sans-serif;
+  font-size: 22px;
+  color: #F9F9F9;
+  margin-left: 10px;
+
+}
+
+.menu img {
+  margin-left: 10px;
+}
+
+.menu a:hover{
+  color:#FF4656;
+}
+
+ .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100vw; 
+  height: calc(100% - 100px);
+} 
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 50vw;
+  height: 400px;
+}
+
+.content h3 {
+  letter-spacing: 30px;
+  margin-top: 50px;
+  font-size: 70px;
+  text-transform: uppercase;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+  color: #F9F9F9;
+}
+
+.content h4 {
+  letter-spacing: 15px;
+  font-size: 60px;
+  color: #F9F9F9;
+  font-family: 'Orbitron', sans-serif;
+  font-weight: bold;
+}
+
+.person {
+  display: flex;
+  justify-content: space-around;
+  width: 650px;
+  height: 240px;
+}
+
+.person .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.person .card img {
+  cursor: pointer;
+  border: 3px solid #ff4656;
+  transition: 0.5s;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.6);
+}
+
+.person .card img:hover {
+  border-color: white;
+  background-color: #FF4656;
+}
+
+.person .card p {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Lexend Deca, sans-serif;
+  /* background-color: #FF4656; */
+  color: #F9F9F9;
+}
+
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  /* background-color: #000; */
+  height: 30px;
+  margin-top: -30px;
+}
+
