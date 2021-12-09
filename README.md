@@ -10,7 +10,7 @@ Desafio 07 - Comunidade Codelândia
 ![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/iuricode/README-template?style=for-the-badge)
 
 
-> Preview : https://vercel.com/viniciusmorais10/valorant/2CwkXHkcXV1YVzkExVE6FWQpXCBj
+> Preview : https://valorant-7npzz2zr8-viniciusmorais10.vercel.app/
 
 > Projeto desenvolvido para cumprir desafio 07 do iuricode lançado na comunidade da Codelândia
 
